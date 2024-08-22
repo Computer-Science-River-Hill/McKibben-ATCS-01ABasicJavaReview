@@ -7,15 +7,16 @@ All of these projects will be used together as we progress through the course. W
 
 
 ## Specifications
-1. Create a class called a PatternMaker. It will have a single static method called MakePattern. Given a string containing a word, it returns a string which contains the pattern of letters in that word, with 'A' representing the first distinct letter in the word, 'B' representing the second distinct letter in the word, and 'C' representing the third, etc. This is case-insensitive, ie: A and a are the same.  For example: \
-`Word                Pattern  \
-----                ------- \
-cat                 ABC \
-moon                ABBC \
-where               ABCDC \
-baboon              ABACCD \
-MisSisSipPi         ABCCBCCBDDB \
-`
+1. Create a class called a PatternMaker. It will have a single static method called MakePattern. Given a string containing a word, it returns a string which contains the pattern of letters in that word, with 'A' representing the first distinct letter in the word, 'B' representing the second distinct letter in the word, and 'C' representing the third, etc. This is case-insensitive, ie: A and a are the same.  For example: 
+```
+Word                Pattern  
+----                ------- 
+cat                 ABC 
+moon                ABBC 
+where               ABCDC 
+baboon              ABACCD 
+MisSisSipPi         ABCCBCCBDDB 
+```
 2. Create unit tests for PatternMaker. 
 3. Test the driver on the five words above and five other words.  — Try to find edge cases and places where it will fail.
 4. Prove to Mr. McKibben that your code works.
