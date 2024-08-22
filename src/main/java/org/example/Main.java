@@ -9,10 +9,6 @@ public class Main {
         System.out.println(testMakePattern("Mississippi"));
     }
     public static String testMakePattern(String word) {
-          String temp = "";
-          temp += word;
-          temp += "=====>";
-          temp += PatternMaker.MakePattern(word);
           return word + "=====>" + PatternMaker.MakePattern(word);
     }
 }
