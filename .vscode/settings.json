@@ -1,5 +1,6 @@
 {
     "redhat.telemetry.enabled" : false,
+    "editor.bracketPairColorization.enabled": true, 
     "java.server.launchMode" : "Standard",
     "files.exclude": {
         ".*": true,
@@ -25,6 +26,12 @@
         "charmander",
         "mewtwo",
         "charmeleon",
-        "deadend"
+        "deadend",
+        "Catchrate",
+        "McKibben",
+        "diceware",
+        "Diceware",
+        "arraysize",
+        "autofetch"
     ]
 }
